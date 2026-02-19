@@ -34,6 +34,20 @@
           "odataVersion": "4.0"
         }
       }
+    },
+    "crossNavigation": {
+      "inbounds": {
+        "zui_is_agend_asst-display": {
+          "semanticObject": "zui_is_agend_asst",
+          "action": "display",
+          "title": "{{zui_is_agend_asst-display.flpTitle}}",
+          "subTitle": "{{zui_is_agend_asst-display.flpSubtitle}}",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
+        }
+      }
     }
   },
   "sap.ui": {
