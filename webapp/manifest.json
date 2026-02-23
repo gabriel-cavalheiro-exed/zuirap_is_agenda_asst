@@ -138,6 +138,20 @@
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
                     "type": "ResponsiveTable"
+                  },
+                  "actions": {
+                    "DataFieldForIntentBasedNavigation::manage": {
+                      "enableOnSelect": "single",
+                      "priority": "High",
+                      "afterExecution": {
+                        "navigateToInstance": true
+                      }
+                    },
+                    "DataFieldForIntentBasedNavigation::create": {
+                      "enableOnSelect": "single",
+                      "overflowGroup": 0,
+                      "priority": "NeverOverflow"
+                    }
                   }
                 }
               }
