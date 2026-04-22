@@ -147,10 +147,12 @@
                         "navigateToInstance": true
                       }
                     },
-                    "DataFieldForIntentBasedNavigation::create": {
-                      "enableOnSelect": "single",
-                      "overflowGroup": 0,
-                      "priority": "NeverOverflow"
+                    "CriarOrdemVenda": {
+                      "press": "br.com.gamma.zuirapisagendaasst.ext.controller.CustomController.onPressCriarOrdemVenda",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": false,
+                      "text": "Criar Ordem de Venda"
                     }
                   }
                 }

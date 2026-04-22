@@ -20,6 +20,6 @@ builder:
           name: ZUI_IS_AGEN_ASS
           description: App RAP - Inside Sales - Agenda do Assistente
           package: ZRAP_AGENDA_ASSISTENTE
-          transport: BWPK900098
+          transport: BWPK900082
         exclude:
           - /test/

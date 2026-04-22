@@ -107,12 +107,6 @@
                         <Record Type="UI.DataField">
                             <PropertyValue Property="Value" Path="LocalLastChangedAt"/>
                         </Record>
-                        <Record Type="UI.DataFieldForIntentBasedNavigation">
-                            <PropertyValue Property="SemanticObject" String="SalesDocument"/>
-                            <PropertyValue Property="Action" String="create"/>
-                            <PropertyValue Property="Label" String="Criar Ordem de Venda"/>
-                            <PropertyValue Property="RequiresContext" Bool="true"/>
-                        </Record>
                     </Collection>
                 </Annotation>
             </Annotations>
